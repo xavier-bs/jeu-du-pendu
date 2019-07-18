@@ -1,0 +1,31 @@
+.keyboard {
+   display: flex;
+   flex-wrap: wrap;
+   width: 554px;
+   justify-content: center;
+   margin: auto;
+}
+
+.key {
+   font-size:  30px;
+   font-family: Consolas, Monaco;
+   cursor: pointer;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   padding: 0.1em 0.5em;
+   margin: 0.1em;
+   box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+   background-color: #F5F5F5;
+}
+
+.key.used {
+   color: #cecece;
+}
+
+.key:hover {
+   background-color: #FFFFFF;
+}
+
+.key:active {
+   transform: translate(0,-1px) scale(0.98);
+}

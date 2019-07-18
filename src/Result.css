@@ -1,0 +1,31 @@
+/**
+ * Result stylesheet
+ */
+.result {
+   font-family: Impact, Charcoal, sans-serif;
+   font-size: 2em;
+   margin-bottom: 0.3em;
+}
+
+.result.true {
+   color: #238823;
+}
+
+.result.false {
+   color: #D2222D;
+}
+
+.play-again button {
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-size: 1.3em;
+   padding: 0.4em;
+   cursor: pointer;
+}
+
+.solution {
+   font-size: 1.2em;
+}
+
+.solution > .word {
+   letter-spacing: initial;
+}

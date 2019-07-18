@@ -1,0 +1,27 @@
+.App {
+   text-align: center;
+   user-select: none;
+}
+
+.App .word {
+   margin: 1em 0;
+   font-size: 30px;
+   letter-spacing: 4px;
+   font-family: Consolas, Monaco, Inconsolata, 'Courier New', monospace;
+   font-weight: 800;
+
+}
+
+.App .guessesWrap {
+   margin: 1em 0;
+}
+
+.App .guesses {
+   font-size: 1.2em;
+}
+
+.App span.guess-count {
+   margin: 0.5em;
+   font-size: 1.4em;
+   font-family: sans-serif;
+}
