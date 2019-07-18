@@ -10,6 +10,8 @@ Install dependencies<br>
 Start the app in development mode
 `npm start`
 
+[Demo](https://murviel-info.com/jeu-du-pendu)
+
 ---
 
 # Original README.md
